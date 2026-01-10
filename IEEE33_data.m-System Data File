@@ -1,7 +1,7 @@
 function [bus_data, line_data, load_data] = IEEE33_data()
 % IEEE33_data - IEEE Complete Data for 33-Bus Distribution System
 % 
-% 输出:
+% output:
 %   bus_data  - Bus Data [Node Number, Nominal Voltage，(kV)]
 %   line_data -Line Data [Starting node, ending node, R(Ω), X(Ω)]
 %   load_data - Load data[Node Number, Active Power，(kW), 无功(kVar)]
